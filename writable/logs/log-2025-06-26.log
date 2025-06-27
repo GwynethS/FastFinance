@@ -21,3 +21,27 @@ CRITICAL - 2025-06-26 21:23:24 --> Undefined variable: session
 #15 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #17 {main}
+CRITICAL - 2025-06-26 23:32:43 --> Class 'Models\UserSettingModel' not found
+#0 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\UserController->show_user_settings()
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-26 23:33:15 --> Class 'Models\UserSettingModel' not found
+#0 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\UserController->show_user_settings()
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-26 23:33:18 --> Class 'Models\UserSettingModel' not found
+#0 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\UserController->show_user_settings()
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-26 23:33:31 --> Class 'App\UserSettingModel' not found
+#0 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\UserController->show_user_settings()
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

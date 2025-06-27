@@ -5186,6 +5186,13 @@ div.dataTables_wrapper div.dataTables_filter input {
     color: #FFFFFF;
 }
 
+.btn-gradient-main:hover{
+    color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transform: translateY(-1px);
+}
+
 a{
     color: #4980FD;
     text-decoration: none;
