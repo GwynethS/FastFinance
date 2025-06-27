@@ -15,6 +15,10 @@
             white-space: nowrap;
             text-overflow: ellipsis;
         }
+
+        .card:hover{
+            cursor: pointer;
+        }
     </style>
 
 </head>
