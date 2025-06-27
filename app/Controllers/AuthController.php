@@ -49,7 +49,7 @@ class AuthController extends BaseController
                     $dataInsert = [
                         'username' => $username,
                         'email' => $email,
-                        'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+                        'password' => $this->request->getVar('password'),
                     ];
 
                     $userModel->insert($dataInsert);
