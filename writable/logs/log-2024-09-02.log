@@ -1,0 +1,11 @@
+CRITICAL - 2024-09-02 16:14:28 --> Undefined index: document
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/company/company-create.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 112, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('company/company...', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(206): view('company/company...', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_create()
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

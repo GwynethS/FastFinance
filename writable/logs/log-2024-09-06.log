@@ -1,0 +1,150 @@
+CRITICAL - 2024-09-06 12:02:56 --> Undefined index: ubigeo
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Views/company/company-list.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home2/wmlobzmc...', 93, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('company/company...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(87): view('company/company...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_list()
+#6 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-06 12:10:55 --> Column 'name' in where clause is ambiguous
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(328): mysqli->query('SELECT `busines...')
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `busines...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `busines...')
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `busines...', Array, false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(73): CodeIgniter\BaseModel->findAll()
+#7 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_list()
+#8 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#9 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-06 12:20:37 --> Unknown column 'business_contact.response' in 'field list'
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(328): mysqli->query('SELECT `busines...')
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `busines...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `busines...')
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `busines...', Array, false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(72): CodeIgniter\BaseModel->findAll()
+#7 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_list()
+#8 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#9 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-06 12:21:21 --> Unknown column 'business_contact.response' in 'field list'
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(328): mysqli->query('SELECT `busines...')
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `busines...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `busines...')
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `busines...', Array, false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(72): CodeIgniter\BaseModel->findAll()
+#7 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_list()
+#8 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#9 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-06 12:21:23 --> Unknown column 'business_contact.response' in 'field list'
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(328): mysqli->query('SELECT `busines...')
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `busines...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `busines...')
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `busines...', Array, false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(72): CodeIgniter\BaseModel->findAll()
+#7 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_list()
+#8 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#9 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-06 15:45:11 --> Undefined offset: 1
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home2/wmlobzmc...', 634, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact_create('1814')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 15:46:44 --> Undefined offset: 1
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home2/wmlobzmc...', 634, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact_create('1814')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 15:55:47 --> Undefined offset: 1
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home2/wmlobzmc...', 634, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact_create('1814')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 16:07:49 --> Undefined offset: 1
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home2/wmlobzmc...', 634, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact_create('1141')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 16:07:56 --> Undefined offset: 1
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home2/wmlobzmc...', 634, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact_create('1141')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 16:08:58 --> Undefined offset: 1
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home2/wmlobzmc...', 634, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact_create('1141')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 16:09:35 --> Undefined offset: 1
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home2/wmlobzmc...', 634, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact_create('1141')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 16:10:01 --> Undefined offset: 1
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home2/wmlobzmc...', 634, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact_create('819')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 16:11:38 --> Undefined offset: 1
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home2/wmlobzmc...', 634, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact_create('1312')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 16:12:07 --> Undefined offset: 1
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home2/wmlobzmc...', 634, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact_create('819')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-09-06 16:12:26 --> Undefined variable: totalTime
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home2/wmlobzmc...', 41, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Debug/Toolbar.php(495): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Debug/Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Config/Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/Events/Events.php(166): call_user_func(Object(Closure))
+#6 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(319): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-09-06 16:12:40 --> Undefined offset: 1
+#0 /home2/wmlobzmc/public_html/grupolozamora/chambeo/app/Controllers/CompanyController.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home2/wmlobzmc...', 634, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact_create('809')
+#2 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home2/wmlobzmc/public_html/grupolozamora/chambeo/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/chambeo/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

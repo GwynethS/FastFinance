@@ -1,0 +1,116 @@
+CRITICAL - 2024-08-15 08:39:47 --> Undefined index: date_desasign
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/company/company-edit.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 72, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('company/company...', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(215): view('company/company...', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_edit('5')
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-15 09:45:21 --> Trying to access array offset on value of type null
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/company/company-contact.php(301): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home3/purpura1...', 301, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('company/company...', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(351): view('company/company...', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact('5')
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-15 10:32:10 --> Trying to access array offset on value of type null
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/company/company-contact.php(301): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home3/purpura1...', 301, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('company/company...', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(365): view('company/company...', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact('1')
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-15 10:39:30 --> Undefined offset: 1
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(322): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/purpura1...', 322, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_person(NULL)
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-15 10:40:27 --> Trying to access array offset on value of type null
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/company/company-contact.php(301): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home3/purpura1...', 301, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('company/company...', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(365): view('company/company...', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact('1')
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-15 10:41:42 --> Trying to access array offset on value of type null
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/company/company-contact.php(301): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home3/purpura1...', 301, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('company/company...', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(367): view('company/company...', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact('1')
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-15 10:48:16 --> Call to undefined method App\Models\BusinessPersonModel::insertID
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(339): CodeIgniter\Model->__call('insertID', Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_person('5')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-15 10:50:17 --> There is no data to update.
+#0 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(340): CodeIgniter\Model->update('1', Array)
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_person('7')
+#4 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-08-15 10:50:55 --> There is no data to update.
+#0 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(340): CodeIgniter\Model->update('1', Array)
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_person('8')
+#4 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-08-15 10:51:53 --> There is no data to update.
+#0 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(340): CodeIgniter\Model->update('1', Array)
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_person('8')
+#4 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-08-15 10:52:14 --> There is no data to update.
+#0 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(341): CodeIgniter\Model->update('1', Array)
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_person('8')
+#4 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-08-15 14:46:27 --> Undefined index: document
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/company/company-create.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 112, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('company/company...', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(170): view('company/company...', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_create()
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

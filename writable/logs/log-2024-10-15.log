@@ -1,0 +1,93 @@
+CRITICAL - 2024-10-15 08:40:04 --> Call to a member function getUserid() on array
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include()
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('Front/index', Array, true)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/Front.php(58): view('Front/index', Array)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\Front->index()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-15 08:40:04 --> Call to a member function getUserid() on array
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include()
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('Front/index', Array, true)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/Front.php(58): view('Front/index', Array)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\Front->index()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-15 08:40:06 --> Call to a member function getUserid() on array
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include()
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('Front/index', Array, true)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/Front.php(58): view('Front/index', Array)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\Front->index()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-15 08:40:06 --> Call to a member function getUserid() on array
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include()
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('Front/index', Array, true)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/Front.php(58): view('Front/index', Array)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\Front->index()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-15 08:40:19 --> Call to a member function getUserid() on array
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include()
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('Front/index', Array, true)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/Front.php(58): view('Front/index', Array)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\Front->index()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-15 08:40:19 --> Call to a member function getUserid() on array
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include()
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('Front/index', Array, true)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/Front.php(58): view('Front/index', Array)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\Front->index()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-15 08:40:23 --> Trying to get property 'user_id' of non-object
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/Front/index.php(934): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home2/wmlobzmc...', 934, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('Front/index', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/Front.php(58): view('Front/index', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\Front->index()
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-10-15 08:40:23 --> Trying to get property 'user_id' of non-object
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/Front/index.php(934): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home2/wmlobzmc...', 934, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('Front/index', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/Front.php(58): view('Front/index', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\Front->index()
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-10-15 12:40:05 --> Undefined variable: bosses
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/user/user-change-password.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home2/wmlobzmc...', 134, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('user/user-chang...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/UserController.php(249): view('user/user-chang...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\UserController->show_user_change_password()
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

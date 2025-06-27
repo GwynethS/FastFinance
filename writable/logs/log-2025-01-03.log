@@ -1,0 +1,63 @@
+CRITICAL - 2025-01-03 09:23:07 --> Table 'wmlobzmc_bd_apps.users' doesn't exist
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(328): mysqli->query('SELECT 1\nFROM `...')
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Validation/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Validation/Validation.php(312): CodeIgniter\Validation\Rules->is_unique('gg@gmail.com', 'email', Array, NULL)
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Validation/Validation.php(159): CodeIgniter\Validation\Validation->processRules('useremail', 'useremail', 'gg@gmail.com', Array, Array)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Controller.php(183): CodeIgniter\Validation\Validation->run()
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/AuthController.php(52): CodeIgniter\Controller->validate(Array, Array)
+#9 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\AuthController->register()
+#10 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-01-03 09:23:37 --> Undefined variable: title_meta
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/auth/auth-register.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home2/wmlobzmc...', 6, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('auth/auth-regis...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/AuthController.php(71): view('auth/auth-regis...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\AuthController->register()
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-03 09:26:47 --> Undefined variable: title_meta
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/auth/auth-register.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home2/wmlobzmc...', 6, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('auth/auth-regis...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/AuthController.php(71): view('auth/auth-regis...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\AuthController->register()
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-03 11:20:30 --> Argument 2 passed to App\Validation\UserRules::validateDocumentLength() must be of the type string, null given, called in /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Validation/Validation.php on line 312
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Validation/Validation.php(312): App\Validation\UserRules->validateDocumentLength('4444', NULL)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Validation/Validation.php(159): CodeIgniter\Validation\Validation->processRules('document', 'document', '4444', Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/AuthController.php(74): CodeIgniter\Controller->validate(Array, Array)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\AuthController->register()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-03 11:26:28 --> Too few arguments to function App\Validation\UserRules::validateDocumentLength(), 2 passed in /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Validation/Validation.php on line 312 and exactly 3 expected
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Validation/Validation.php(312): App\Validation\UserRules->validateDocumentLength('77777', NULL)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Validation/Validation.php(159): CodeIgniter\Validation\Validation->processRules('document', 'document', '77777', Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/AuthController.php(75): CodeIgniter\Controller->validate(Array, Array)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\AuthController->register()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-03 12:11:01 --> Call to a member function setError() on null
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\AuthController->register()
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

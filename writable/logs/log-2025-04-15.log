@@ -1,0 +1,12 @@
+CRITICAL - 2025-04-15 18:30:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/vendor/codeigniter4/framework/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/vendor/codeigniter4/framework/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/app/Controllers/PostController.php(447): CodeIgniter\BaseModel->findAll()
+#5 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\PostController->show_post_notification()
+#6 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController()
+#7 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

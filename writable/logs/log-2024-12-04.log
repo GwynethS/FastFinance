@@ -1,0 +1,11 @@
+CRITICAL - 2024-12-04 12:01:46 --> Undefined index: info
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/job-offers/job-offer-manage-applicants.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home2/wmlobzmc...', 156, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(1288): view('job-offers/job-...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_manage_postulations()
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

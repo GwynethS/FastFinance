@@ -1,0 +1,63 @@
+CRITICAL - 2024-10-23 16:31:46 --> There is no data to update.
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/PostController.php(181): CodeIgniter\Model->update(39, Array)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\PostController->show_post_create()
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-23 16:34:32 --> There is no data to update.
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/PostController.php(181): CodeIgniter\Model->update(41, Array)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\PostController->show_post_create()
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-23 16:39:58 --> There is no data to update.
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/PostController.php(181): CodeIgniter\Model->update(43, Array)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\PostController->show_post_create()
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-23 16:42:24 --> There is no data to update.
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/PostController.php(181): CodeIgniter\Model->update(44, Array)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\PostController->show_post_create()
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-23 16:42:41 --> There is no data to update.
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/PostController.php(181): CodeIgniter\Model->update(45, Array)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\PostController->show_post_create()
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-23 16:44:47 --> There is no data to update.
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/PostController.php(181): CodeIgniter\Model->update(47, Array)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\PostController->show_post_create()
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-10-23 16:51:50 --> There is no data to update.
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/PostController.php(187): CodeIgniter\Model->update(48, Array)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\PostController->show_post_create()
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

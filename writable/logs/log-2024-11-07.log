@@ -1,0 +1,64 @@
+CRITICAL - 2024-11-07 14:59:48 --> Trying to get property 'id' of non-object
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/job-offers/job-offer-list-catalog.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home2/wmlobzmc...', 45, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(318): view('job-offers/job-...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_list_catalog()
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-07 15:00:01 --> Trying to get property 'id' of non-object
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/job-offers/job-offer-list-catalog.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home2/wmlobzmc...', 45, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(318): view('job-offers/job-...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_list_catalog()
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-07 15:00:18 --> syntax error, unexpected end of file
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(318): view('job-offers/job-...', Array)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_list_catalog()
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-11-07 15:11:24 --> Undefined index: 
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/job-offers/job-offer-list-catalog.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home2/wmlobzmc...', 38, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(318): view('job-offers/job-...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_list_catalog()
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-07 15:20:38 --> Undefined index: expiration_date
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/job-offers/job-offer-list-catalog.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home2/wmlobzmc...', 42, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(318): view('job-offers/job-...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_list_catalog()
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-07 16:07:02 --> Undefined variable: loop
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/job-offers/job-offer-list-catalog.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home2/wmlobzmc...', 69, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(318): view('job-offers/job-...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_list_catalog()
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,72 @@
+CRITICAL - 2024-11-19 10:10:15 --> Undefined index: id
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/job-offers/job-offer-applicant-list.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home2/wmlobzmc...', 63, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(922): view('job-offers/job-...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_applicant_list('28')
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-19 10:10:18 --> Undefined index: id
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/job-offers/job-offer-applicant-list.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home2/wmlobzmc...', 63, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(922): view('job-offers/job-...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_applicant_list('28')
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-19 10:23:14 --> Undefined variable: applicant
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/job-offers/job-offer-applicant-list.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home2/wmlobzmc...', 78, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(914): view('job-offers/job-...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_applicant_list('3')
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-19 10:23:22 --> Undefined variable: applicant
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/job-offers/job-offer-applicant-list.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home2/wmlobzmc...', 78, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(914): view('job-offers/job-...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_applicant_list('31')
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-19 10:30:28 --> Undefined index: id
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/job-offers/job-offer-applicant-create.php(325): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home2/wmlobzmc...', 325, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(790): view('job-offers/job-...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_applicant_create('3')
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-19 10:51:11 --> Undefined index: question_id
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Views/job-offers/job-offer-applicant-create.php(316): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home2/wmlobzmc...', 316, Array)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(230): include('/home2/wmlobzmc...')
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('job-offers/job-...', Array, true)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobOfferController.php(861): view('job-offers/job-...', Array)
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_applicant_create('28')
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-19 12:21:30 --> Call to a member function orderBy() on array
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobOfferController->show_job_offer_list_catalog()
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobOfferController))
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

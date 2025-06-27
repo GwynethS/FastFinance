@@ -1,0 +1,10 @@
+CRITICAL - 2025-03-26 13:12:22 --> Undefined variable: totalTime
+#0 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/vendor/codeigniter4/framework/system/Debug/Toolbar.php(495): include('/home/grupoloza...')
+#2 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/vendor/codeigniter4/framework/system/Debug/Toolbar.php(452): CodeIgniter\Debug\Toolbar->format()
+#3 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/app/Config/Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/vendor/codeigniter4/framework/system/Events/Events.php(166): call_user_func()
+#6 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/vendor/codeigniter4/framework/system/CodeIgniter.php(319): CodeIgniter\Events\Events::trigger()
+#7 /home/grupolozamora/public_html/intranet.grupolozamora.com.pe/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

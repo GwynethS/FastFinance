@@ -1,0 +1,131 @@
+CRITICAL - 2024-08-06 23:08:17 --> Undefined variable: title_meta
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/auth/auth-login.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home3/purpura1...', 6, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('auth/auth-login', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/AuthController.php(78): view('auth/auth-login', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\AuthController->login()
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-06 23:15:38 --> Unknown column 'user' in 'where clause'
+#0 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(328): mysqli->query('SELECT *\nFROM `...')
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/AuthController.php(97): CodeIgniter\BaseModel->first()
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\AuthController->login()
+#8 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-06 23:26:05 --> syntax error, unexpected '$data' (T_VARIABLE), expecting ';' or ','
+#0 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/purpura1...')
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-08-06 23:27:15 --> Undefined index: username
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Validation/UserRules.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 9, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/AuthController.php(100): App\Validation\UserRules->validateUser('', '', Array)
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\AuthController->login()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-08-06 23:28:22 --> Undefined index: email
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Validation/UserRules.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 9, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/AuthController.php(100): App\Validation\UserRules->validateUser('', '', Array)
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\AuthController->login()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-08-06 23:29:24 --> Undefined index: username
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/AuthController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 123, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/AuthController.php(105): App\Controllers\AuthController->setUserSession(Array)
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\AuthController->login()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-08-06 23:50:58 --> Undefined index: module_usuarios
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/user/user-list.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 33, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('user/user-list', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/UserController.php(39): view('user/user-list', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\UserController->show_user_list()
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-06 23:52:28 --> Undefined index: module_usuarios
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/user/user-list.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 33, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('user/user-list', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/UserController.php(39): view('user/user-list', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\UserController->show_user_list()
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-06 23:52:32 --> Undefined index: module_usuarios
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/user/user-list.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 33, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('user/user-list', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/UserController.php(39): view('user/user-list', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\UserController->show_user_list()
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-06 23:53:00 --> Undefined index: user
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/user/user-list.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 56, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('user/user-list', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/UserController.php(39): view('user/user-list', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\UserController->show_user_list()
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-06 23:55:16 --> Undefined index: module_usuarios
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/user/user-list.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 74, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('user/user-list', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/UserController.php(39): view('user/user-list', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\UserController->show_user_list()
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-06 23:55:42 --> Undefined index: user
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Views/user/user-list.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 75, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(230): include('/home3/purpura1...')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Common.php(1250): CodeIgniter\View\View->render('user/user-list', Array, true)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/UserController.php(39): view('user/user-list', Array)
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\UserController->show_user_list()
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-06 23:59:11 --> Undefined index: module_usuarios
+#0 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/purpura1...', 436, Array)
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\UserController->show_user_delete('1')
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

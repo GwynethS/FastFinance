@@ -1,0 +1,40 @@
+CRITICAL - 2024-11-29 11:40:22 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php on line 323
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(323): CodeIgniter\Database\BaseBuilder->set('assigned_recrui...', Array, NULL)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobApplicantController.php(62): CodeIgniter\Model->update('4', Array)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobApplicantController->show_job_applicant_update_fields()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApplicantController))
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-11-29 11:40:27 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php on line 323
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(323): CodeIgniter\Database\BaseBuilder->set('assigned_recrui...', Array, NULL)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobApplicantController.php(62): CodeIgniter\Model->update('4', Array)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobApplicantController->show_job_applicant_update_fields()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApplicantController))
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-11-29 11:40:38 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php on line 323
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(323): CodeIgniter\Database\BaseBuilder->set('assigned_recrui...', Array, NULL)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobApplicantController.php(62): CodeIgniter\Model->update('4', Array)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobApplicantController->show_job_applicant_update_fields()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApplicantController))
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-11-29 11:41:33 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php on line 323
+#0 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(323): CodeIgniter\Database\BaseBuilder->set('assigned_recrui...', Array, NULL)
+#1 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#2 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 /home2/wmlobzmc/public_html/grupolozamora/intranet/app/Controllers/JobApplicantController.php(62): CodeIgniter\Model->update('4', Array)
+#4 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\JobApplicantController->show_job_applicant_update_fields()
+#5 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApplicantController))
+#6 /home2/wmlobzmc/public_html/grupolozamora/intranet/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/wmlobzmc/public_html/grupolozamora/intranet/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

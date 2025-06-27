@@ -1,0 +1,96 @@
+<?php $session = \Config\Services::session(); ?>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <?= $title_meta ?>
+    <link href="/public/assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <!-- dropzone css -->
+    <link href="/public/assets/libs/dropzone/min/dropzone.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/public/assets/libs/select2/select2.min.css" rel="stylesheet">
+    <?= $this->include('partials/head-css') ?>
+</head>
+
+<?= $this->include('partials/body') ?>
+
+<!-- Begin page -->
+<div id="layout-wrapper">
+
+    <?= $this->include('partials/menu') ?>
+
+    <!-- ============================================================== -->
+    <!-- Start right Content here -->
+    <!-- ============================================================== -->
+    <div class="main-content">
+
+        <div class="page-content">
+            <div class="container-fluid">
+
+                <?= $page_title ?>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Crear nueva política</h4>
+                                <form method="post"
+                                      action="/public/policy-create" enctype="multipart/form-data">
+                                    <div class="row mb-4">
+                                        <label for="title" class="col-form-label col-lg-12 mb-2">Título</label>
+                                        <div class="col-lg-12">
+                                            <input name="title" type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-4">
+                                        <label for="description"
+                                               class="col-form-label col-lg-12 mb-2">Descripción</label>
+                                        <div class="col-lg-12">
+                                            <textarea name="description" type="text" class="form-control"
+                                                      placeholder="Coloca una descripción..." rows="7"
+                                                      style="resize: none;"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-4">
+                                        <label for="file" class="col-form-label col-lg-12 mb-2">Adjuntar archivo</label>
+                                        <div class="col-lg-12">
+                                            <input name="file" type="file" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <button type="submit" class="btn btn-primary"><i class="bx bx-save"></i>
+                                            Crear
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+
+            </div> <!-- container-fluid -->
+        </div>
+        <!-- End Page-content -->
+
+
+        <?= $this->include('partials/footer') ?>
+    </div>
+    <!-- end main content-->
+
+</div>
+<!-- END layout-wrapper -->
+
+<?= $this->include('partials/right-sidebar') ?>
+
+<?= $this->include('partials/vendor-scripts') ?>
+
+<!-- bootstrap datepicker -->
+<script src="/public/assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+
+<!-- dropzone plugin -->
+<script src="/public/assets/libs/dropzone/min/dropzone.min.js"></script>
+<script src="/public/assets/libs/select2/select2.min.js"></script>
+<script src="/public/assets/js/app.js"></script>
+
+</body>
+</html>

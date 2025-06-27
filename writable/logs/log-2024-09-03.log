@@ -1,0 +1,24 @@
+CRITICAL - 2024-09-03 11:38:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(34): CodeIgniter\BaseModel->findAll()
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_list()
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-03 11:38:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 /home3/purpura1/public_html/website_d8f418ff/app/Controllers/CompanyController.php(399): CodeIgniter\BaseModel->first()
+#5 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(931): App\Controllers\CompanyController->show_company_contact('673')
+#6 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#7 /home3/purpura1/public_html/website_d8f418ff/vendor/codeigniter4/framework/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/purpura1/public_html/website_d8f418ff/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
