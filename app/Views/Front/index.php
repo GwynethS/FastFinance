@@ -40,15 +40,11 @@
 
 
                 </div>
-                <!-- end row -->
-            </div>
-            <!-- container-fluid -->
-        </div>
-        <!-- End Page-content -->
 
-        <?= $this->include('partials/footer') ?>
+            </div>
+
+        </div>
     </div>
-    <!-- end main content-->
 
 </div>
 <!-- END layout-wrapper -->
