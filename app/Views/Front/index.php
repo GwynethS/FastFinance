@@ -38,6 +38,31 @@
 
                 <div class="row">
 
+                    <div class="col-lg-3">
+                        <div class="card"
+                             style="background: #BFE3FF; background: linear-gradient(0deg, rgba(191, 227, 255, 1) 0%, rgba(62, 145, 248, 1) 100%);"
+                             onclick="window.location.href='/public/bond-list'">
+                            <div class="card-body text-light">
+                                <h5 class="text-light">Lista de bonos</h5>
+                                <div class="text-end">
+                                    <i class='bx bxs-coupon' style="font-size: 5rem;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card"
+                             style="background: #D9D7F3; background: linear-gradient(0deg, rgba(217, 215, 243, 1) 0%, rgba(130, 137, 235, 1) 100%);"
+                             onclick="window.location.href='/public/cashflow-list'">
+                            <div class="card-body text-light">
+                                <h5 class="text-light">Flujo de caja</h5>
+                                <div class="text-end">
+                                    <i class='bx bxs-dollar-circle' style="font-size: 5rem;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
 

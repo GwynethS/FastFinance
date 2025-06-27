@@ -17,8 +17,8 @@ class Front extends BaseController
         }
 
         $data = [
-            'title_meta' => view('partials/title-meta', ['title' => 'Inicio']),
-            'page_title' => view('partials/page-title', ['title' => 'Inicio', 'pagetitle' => 'Inicio']),
+            'title_meta' => view('partials/title-meta', ['title' => 'Dashboard']),
+            'page_title' => view('partials/page-title', ['title' => 'Dashboard', 'pagetitle' => 'Dashboard']),
         ];
 
         return view('Front/index', $data);

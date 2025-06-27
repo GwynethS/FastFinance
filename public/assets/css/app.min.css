@@ -5238,3 +5238,7 @@ a{
 .mm-active .active i{
     color: #FFFFFF !important;
 }
+
+.main-content{
+    padding-right: 1.5rem;
+}
