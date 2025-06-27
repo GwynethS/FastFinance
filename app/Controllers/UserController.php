@@ -65,7 +65,7 @@ class UserController extends BaseController
 
         // si el usuario es de tipo superadmin, se muestran todos los roles
 
-        if ($session->get('role')['alias'] == 'superadmin'){
+        if ($session->get('role')['alias'] == 'superadmin') {
             $data['roles'] = $roleModel->findAll();
         } else {
             $data['roles'] = $roleModel->where('alias !=', 'superadmin')->findAll();
@@ -259,10 +259,10 @@ class UserController extends BaseController
         $userModel = new UserModel;
         $user = $userModel->where('id', $session->get('id'))->first();
 
-        if($this->request->getMethod() == 'post'){
+        if ($this->request->getMethod() == 'post') {
             $new_password = $this->request->getVar('new_password');
 
-            if($new_password != '' and !is_null($new_password)){
+            if ($new_password != '' and !is_null($new_password)) {
                 $userModel->update($user['id'], ['password' => $new_password]);
 
                 return redirect()->to('/');
@@ -305,10 +305,10 @@ class UserController extends BaseController
 
         $userSettings = $userSettingModel->where('user_id', $user['id'])->first();
 
-        if(!isset($userSettings)){
+        if (!isset($userSettings)) {
             $dataInsert = [
-              'user_id' => $user['id'],
-              'created_by' => $user['email'],
+                'user_id' => $user['id'],
+                'created_by' => $user['email'],
             ];
 
             $userSettingModel->insert($dataInsert);
@@ -320,6 +320,26 @@ class UserController extends BaseController
             'user' => $user,
             'userSettings' => $userSettings,
         ];
+
+        if ($this->request->getMethod() == 'post') {
+
+            $coin = $this->request->getPost('coin');
+            $interest_rate_type = $this->request->getPost('interest_rate_type');
+            $annuity_type = $this->request->getPost('annuity_type');
+
+            $dataUpdate = [
+                'coin' => $coin,
+                'interest_rate_type' => $interest_rate_type,
+                'annuity_type' => $annuity_type,
+                'edited_by' => $user['email'],
+                'edited_at' => (new \DateTime())->format('Y-m-d H:i:s')
+            ];
+
+            $userSettingModel->update($userSettings['id'], $dataUpdate);
+
+            return redirect()->to('/public/user-settings');
+        }
+
         return view('user/user-settings', $data);
     }
 }

@@ -152,6 +152,7 @@ $routes->get('user-delete/(:any)', 'UserController::show_user_delete/$1');
 $routes->get('user-enable/(:any)', 'UserController::show_user_enable/$1');
 
 $routes->get('user-settings', 'UserController::show_user_settings');
+$routes->post('user-settings', 'UserController::show_user_settings');
 
 //MAIN
 $routes->get('bond-list', 'MainController::show_bond_list');

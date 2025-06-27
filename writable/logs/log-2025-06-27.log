@@ -1,0 +1,6 @@
+CRITICAL - 2025-06-27 01:08:35 --> Call to a member function update() on array
+#0 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\UserController->show_user_settings()
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
