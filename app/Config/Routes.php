@@ -151,43 +151,11 @@ $routes->post('user-edit/(:any)', 'UserController::show_user_edit/$1');
 $routes->get('user-delete/(:any)', 'UserController::show_user_delete/$1');
 $routes->get('user-enable/(:any)', 'UserController::show_user_enable/$1');
 
-//HOME
-$routes->get('user-post-like/(:any)', 'PostController::show_user_post_like/$1');
-$routes->get('user-comment-like/(:any)', 'PostController::show_user_comment_like/$1');
-$routes->post('user-comment-create/(:any)', 'PostController::show_user_comment_create/$1');
-$routes->get('user-comment-delete/(:any)', 'PostController::show_user_comment_delete/$1');
+$routes->get('user-settings', 'UserController::show_user_settings');
 
-
-//BENEFITS
-$routes->get('benefit-coupon', 'BenefitController::show_benefit_coupon');
-$routes->get('benefit-corporate', 'BenefitController::show_benefit_corporate');
-
-//POLICY
-$routes->get('policy-list', 'PolicyController::show_policy_list');
-$routes->get('policy-create', 'PolicyController::show_policy_create');
-$routes->post('policy-create', 'PolicyController::show_policy_create');
-$routes->get('policy-edit/(:any)', 'PolicyController::show_policy_edit/$1');
-$routes->post('policy-edit/(:any)', 'PolicyController::show_policy_edit/$1');
-$routes->get('policy-delete/(:any)', 'PolicyController::show_policy_delete/$1');
-
-//POSTS
-$routes->get('post-create', 'PostController::show_post_create');
-$routes->post('post-create', 'PostController::show_post_create');
-$routes->get('post-delete/(:any)', 'PostController::show_post_delete/$1');
-$routes->get('post-notification', 'PostController::show_post_notification');
-$routes->get('post-birthday', 'PostController::show_post_birthday');
-$routes->post('post-birthday', 'PostController::show_post_birthday');
-
-
-$routes->get('pages-starter', 'PageController::show_pages_starter');
-$routes->get('pages-maintenance', 'PageController::show_pages_maintenance');
-$routes->get('pages-comingsoon', 'PageController::show_pages_comingsoon');
-$routes->get('pages-timeline', 'PageController::show_pages_timeline');
-$routes->get('pages-faqs', 'PageController::show_pages_faqs');
-$routes->get('pages-pricing', 'PageController::show_pages_pricing');
-$routes->get('pages-404', 'PageController::show_pages_404');
-$routes->get('pages-500', 'PageController::show_pages_500');
-
+//MAIN
+$routes->get('bond-list', 'MainController::show_bond_list');
+$routes->get('cashflow-list', 'MainController::show_cashflow_list');
 
 //Component section routing
 $routes->get('ui-alerts', 'ComponentController::show_ui_alerts');

@@ -1,6 +1,6 @@
 <?php $session = \Config\Services::session(); ?>
 <header id="page-topbar">
-    <div class="navbar-header">
+    <div class="navbar-header" style="padding-right: 3rem;">
         <div class="d-flex">
             <!-- LOGO -->
             <div class="navbar-brand-box">

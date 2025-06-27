@@ -282,4 +282,9 @@ class UserController extends BaseController
             $userModel->update($user['id'], ['password' => $user['document']]);
         }
     }
+
+    public function show_user_settings()
+    {
+
+    }
 }
