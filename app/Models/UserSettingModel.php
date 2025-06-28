@@ -8,7 +8,6 @@ class UserSettingModel extends Model{
         'user_id',
         'coin',
         'interest_rate_type',
-        'annuity_type',
         'state',
         'created_by',
         'created_at',

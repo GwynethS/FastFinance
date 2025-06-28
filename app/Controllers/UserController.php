@@ -325,12 +325,10 @@ class UserController extends BaseController
 
             $coin = $this->request->getPost('coin');
             $interest_rate_type = $this->request->getPost('interest_rate_type');
-            $annuity_type = $this->request->getPost('annuity_type');
 
             $dataUpdate = [
                 'coin' => $coin,
                 'interest_rate_type' => $interest_rate_type,
-                'annuity_type' => $annuity_type,
                 'edited_by' => $user['email'],
                 'edited_at' => (new \DateTime())->format('Y-m-d H:i:s')
             ];
