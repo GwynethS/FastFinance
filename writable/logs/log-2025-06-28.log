@@ -1,0 +1,33 @@
+CRITICAL - 2025-06-28 09:44:15 --> Undefined variable: users
+#0 C:\xampp\htdocs\app\Views\bond\bond-list.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('bond/bond-list', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\MainController.php(33): view('bond/bond-list', Array)
+#5 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\MainController->show_bond_list()
+#6 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#7 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-06-28 09:55:40 --> Undefined variable: user
+#0 C:\xampp\htdocs\app\Views\bond\bond-list.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('bond/bond-list', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\MainController.php(33): view('bond/bond-list', Array)
+#5 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\MainController->show_bond_list()
+#6 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#7 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-06-28 10:08:10 --> Undefined variable: users
+#0 C:\xampp\htdocs\app\Views\cash-flow\cash-flow-list.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('cash-flow/cash-...', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\MainController.php(49): view('cash-flow/cash-...', Array)
+#5 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\MainController->show_cash_flow_list()
+#6 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#7 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

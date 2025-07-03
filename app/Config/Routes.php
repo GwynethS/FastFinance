@@ -156,7 +156,8 @@ $routes->post('user-settings', 'UserController::show_user_settings');
 
 //MAIN
 $routes->get('bond-list', 'MainController::show_bond_list');
-$routes->get('cashflow-list', 'MainController::show_cashflow_list');
+$routes->post('bond-create', 'MainController::bond_create');
+$routes->get('cash-flow-list', 'MainController::show_cash_flow_list');
 
 //Component section routing
 $routes->get('ui-alerts', 'ComponentController::show_ui_alerts');
