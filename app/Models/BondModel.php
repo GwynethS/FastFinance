@@ -2,21 +2,26 @@
 
 use CodeIgniter\Model;
 
-class BondModel extends Model{
-    protected $table      = 'bond';
+class BondModel extends Model
+{
+    protected $table = 'bond';
     protected $allowedFields = [
         'user_id',
         'code',
         'name',
         'coin',
+        'face_value',
+        'market_value',
         'interest_rate_type',
         'capitalization_period',
         'interest_rate',
         'cok',
         'term_years',
         'payment_frequency',
+        'year_days',
         'total_grace',
         'partial_grace',
+        'issue_date',
         'premium',
         'structuring_fee',
         'placement_fee',

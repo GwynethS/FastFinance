@@ -149,13 +149,25 @@ $session = \Config\Services::session();
 
                                                 <select name="coin" id="coin" class="form-select" required>
                                                     <option value="">SELECCIONE</option>
-                                                    <option value="SOLES" <?php if ($userSettings['coin'] == 'SOLES') echo 'selected'; ?>>
+                                                    <option value="SOLES" <?php if (isset($userSettings) and $userSettings['coin'] == 'SOLES') echo 'selected'; ?>>
                                                         SOLES
                                                     </option>
-                                                    <option value="DÓLARES" <?php if ($userSettings['coin'] == 'DÓLARES') echo 'selected'; ?>>
+                                                    <option value="DÓLARES" <?php if (isset($userSettings) and $userSettings['coin'] == 'DÓLARES') echo 'selected'; ?>>
                                                         DÓLARES
                                                     </option>
                                                 </select>
+                                            </div>
+                                            <!--VALOR NOMINAL-->
+                                            <div class="col-lg-3 mb-3">
+                                                <label for="face_value" class="form-label">Valor nominal</label>
+                                                <input type="text" class="form-control" name="face_value"
+                                                       id="face_value" required>
+                                            </div>
+                                            <!--VALOR COMERCIAL-->
+                                            <div class="col-lg-3 mb-3">
+                                                <label for="market_value" class="form-label">Valor comercial</label>
+                                                <input type="text" class="form-control" name="market_value"
+                                                       id="market_value" required>
                                             </div>
                                             <!--TIPO DE TASA DE INTERÉS-->
                                             <div class="col-lg-3 mb-3">
@@ -166,10 +178,10 @@ $session = \Config\Services::session();
                                                 <select name="interest_rate_type" id="interest_rate_type"
                                                         class="form-select" required>
                                                     <option value="">SELECCIONE</option>
-                                                    <option value="EFECTIVA" <?php if ($userSettings['interest_rate_type'] == 'EFECTIVA') echo 'selected'; ?>>
+                                                    <option value="EFECTIVA" <?php if (isset($userSettings) and $userSettings['interest_rate_type'] == 'EFECTIVA') echo 'selected'; ?>>
                                                         EFECTIVA
                                                     </option>
-                                                    <option value="NOMINAL" <?php if ($userSettings['interest_rate_type'] == 'NOMINAL') echo 'selected'; ?>>
+                                                    <option value="NOMINAL" <?php if (isset($userSettings) and $userSettings['interest_rate_type'] == 'NOMINAL') echo 'selected'; ?>>
                                                         NOMINAL
                                                     </option>
                                                 </select>
@@ -254,6 +266,14 @@ $session = \Config\Services::session();
                                                     parcial</label>
                                                 <input type="number" class="form-control" name="partial_grace"
                                                        id="partial_grace" required>
+                                            </div>
+                                            <!--FECHA DE EMISIÓN-->
+                                            <div class="col-lg-3 mb-3">
+                                                <label for="issue_date" class="form-label">
+                                                    Fecha de emisión
+                                                </label>
+                                                <input type="date" class="form-control" name="issue_date"
+                                                       id="issue_date" required>
                                             </div>
 
                                         </div>

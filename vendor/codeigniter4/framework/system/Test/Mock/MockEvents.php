@@ -1,40 +1,51 @@
 <?php
 
+declare(strict_types=1);
+
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
 namespace CodeIgniter\Test\Mock;
 
 use CodeIgniter\Events\Events;
 
-/**
- * Events
- */
 class MockEvents extends Events
 {
-	public function getListeners()
-	{
-		return self::$listeners;
-	}
+    /**
+     * @return array
+     */
+    public function getListeners()
+    {
+        return self::$listeners;
+    }
 
-	public function getEventsFile()
-	{
-		return self::$files;
-	}
+    /**
+     * @return array<int, string>
+     */
+    public function getEventsFile()
+    {
+        return self::$files;
+    }
 
-	public function getSimulate()
-	{
-		return self::$simulate;
-	}
+    /**
+     * @return bool
+     */
+    public function getSimulate()
+    {
+        return self::$simulate;
+    }
 
-	public function unInitialize()
-	{
-		static::$initialized = false;
-	}
+    /**
+     * @return void
+     */
+    public function unInitialize()
+    {
+        static::$initialized = false;
+    }
 }

@@ -5,9 +5,8 @@ $routes = Services::routes();
 
 // Load the system's routing file first, so that the app and ENVIRONMENT
 // can override as needed.
-if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
-{
-	require SYSTEMPATH . 'Config/Routes.php';
+if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
+    require SYSTEMPATH . 'Config/Routes.php';
 }
 
 /**
@@ -16,11 +15,11 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Front');
+/*$routes->setDefaultController('Front');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
-$routes->setAutoRoute(true);
+$routes->setAutoRoute(true);*/
 
 /**
  * --------------------------------------------------------------------
@@ -32,8 +31,9 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 
 // Authentication Routing ---- Removed 
-// $routes->match(['get', 'post'], 'auth-login', 'AuthController::login');
-// $routes->match(['get', 'post'], 'auth-register', 'AuthController::register');
+$routes->match(['GET', 'POST'], 'auth-login', 'AuthController::login');
+$routes->match(['GET', 'POST'], 'auth-register', 'AuthController::register');
+$routes->get('auth-logout', 'AuthController::logout');
 // $routes->match(['get', 'post'], 'auth-recoverpw', 'AuthController::recoverpw');
 // $routes->match(['get', 'post'], 'auth-updatepw', 'AuthController::updatepw');
 // $routes->get('auth-logout', 'AuthController::logout');
@@ -117,12 +117,11 @@ $routes->get('blog-grid', 'AppController::show_blog_grid');
 $routes->get('blog-details', 'AppController::show_blog_details');
 
 //Pages section routing
-$routes->get('auth-login', 'AuthController::login');
+/*$routes->get('auth-login', 'AuthController::login');
 $routes->post('auth-login', 'AuthController::login');
 $routes->get('auth-register', 'AuthController::register');
-$routes->post('auth-register', 'AuthController::register');
+$routes->post('auth-register', 'AuthController::register');*/
 
-$routes->get('auth-logout', 'AuthController::logout');
 $routes->get('auth-login-2', 'PageController::show_login_2');
 $routes->get('auth-register', 'PageController::show_register');
 $routes->get('auth-register-2', 'PageController::show_register_2');
@@ -231,7 +230,6 @@ $routes->get('maps-leaflet', 'ComponentController::show_maps_leaflet');
  * You will have access to the $routes object within that file without
  * needing to reload it.
  */
-if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php'))
-{
-	require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
+if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
+    require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }

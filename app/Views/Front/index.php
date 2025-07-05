@@ -58,7 +58,7 @@
                     <div class="col-lg-3">
                         <div class="card"
                              style="background: #D9D7F3; background: linear-gradient(0deg, rgba(217, 215, 243, 1) 0%, rgba(130, 137, 235, 1) 100%);"
-                             onclick="window.location.href='/public/cashflow-list'">
+                             onclick="window.location.href='/public/cash-flow-list'">
                             <div class="card-body text-light">
                                 <h5 class="text-light">Flujo de caja</h5>
                                 <div class="text-end">

@@ -20,7 +20,7 @@ class vfsStreamUmaskTestCase extends \BC_PHPUnit_Framework_TestCase
     /**
      * set up test environment
      */
-    public function setUp()
+    public function setUp(): void
     {
         vfsStream::umask(0000);
     }
@@ -28,7 +28,7 @@ class vfsStreamUmaskTestCase extends \BC_PHPUnit_Framework_TestCase
     /**
      * clean up test environment
      */
-    public function tearDown()
+    public function tearDown(): void
     {
         vfsStream::umask(0000);
     }
@@ -146,7 +146,7 @@ class vfsStreamUmaskTestCase extends \BC_PHPUnit_Framework_TestCase
     {
         $root = vfsStream::setup();
         vfsStream::umask(0022);
-        mkdir(vfsStream::url('root/newdir'), null);
+        mkdir(vfsStream::url('root/newdir'), 0000);
         $this->assertEquals(0000, $root->getChild('newdir')->getPermissions());
     }
 

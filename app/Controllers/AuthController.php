@@ -31,7 +31,7 @@ class AuthController extends BaseController
             return view('auth/auth-register', $data);
         }
 
-        if ($this->request->getMethod() == 'post') {
+        if ($this->request->getMethod() == 'POST') {
 
             $username = $this->request->getVar('username');
             $email = $this->request->getVar('email');
@@ -75,10 +75,12 @@ class AuthController extends BaseController
     public function login()
     {
         $session = \Config\Services::session();
-        $role = $session->get('role');
-        if (is_array($role)) {
-            return redirect()->to('/public/');
+
+        $username = $session->get('username');
+        if ($username) {
+            return redirect()->to('/public');
         }
+
         helper(['form']);
 
         $data = [
@@ -86,11 +88,7 @@ class AuthController extends BaseController
             'title_meta' => view('partials/title-meta', ['title' => 'Login'])
         ];
 
-        if ($this->request->getMethod() == 'get') {
-            return view('auth-login', $data);
-        }
-
-        if ($this->request->getMethod() == 'post') {
+        if ($this->request->getMethod() == 'POST') {
             $rule = new UserRules();
 
             $data['error'] = '';
@@ -112,7 +110,7 @@ class AuthController extends BaseController
                 } else {
                     $this->setUserSession($userdata);
 
-                    return redirect()->to('/public/');
+                    return redirect()->to('/public');
                 }
             } else {
                 $data['error'] = 'El nombre de usuario no existe en nuestra base de datos';
@@ -120,6 +118,8 @@ class AuthController extends BaseController
             }
 
         }
+
+        return view('auth-login', $data);
     }
 
     /*

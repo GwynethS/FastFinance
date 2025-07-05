@@ -1,3 +1,31 @@
+1.6.12 (2024-08-29)
+-------------------
+
+* Drop php 5 and 7.0 support as new versions enforced a syntax change that is not compatible with the old versions.
+
+1.6.11 (2022-07-26)
+-------------------
+
+  * Add support for PHP 8.2's `$content` property in `vfsStreamWrapper`
+
+1.6.10 (2021-09-25)
+-------------------
+
+  * Fix more deprecation warnings for PHP 8.1 support affecting the following:
+    - `vfsStreamContainerIterator::current()`
+    - `vfsStreamContainerIterator::next()`
+    - `vfsStreamContainerIterator::key()`
+    - `vfsStreamContainerIterator::rewind()`
+    - `vfsStreamDirectory::getIterator()`
+    - `vfsStreamPrintVisitor::printContent()`
+  * Fix PHP 8.1 support in `vfsStreamPrintVisitor`
+
+1.6.9 (2021-07-16)
+------------------
+
+   * Fix deprecation warning on `StringBasedFileContent` for PHP 8.1 (#252)
+   * Fix return type for `FileContent::write()` to fix static analysis tools
+
 1.6.8 (2019-10-30)
 ------------------
 

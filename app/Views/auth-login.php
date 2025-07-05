@@ -27,7 +27,7 @@
                     <h3 class="text-center" style="margin-bottom: 4rem;">
                         Iniciar sesión
                     </h3>
-                    <form method="post" action="/public/auth-login" class="needs-validation" novalidate>
+                    <form method="POST" action="/public/auth-login" class="needs-validation" novalidate>
 
                         <div class="mb-4">
                             <label for="username" class="form-label">Usuario</label>

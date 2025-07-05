@@ -1,0 +1,1013 @@
+CRITICAL - 2025-07-05 09:04:05 --> Division by zero
+#0 C:\xampp\htdocs\app\Controllers\MainController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 299, Array)
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\MainController->show_cash_flow_list()
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#3 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-05 09:06:05 --> Undefined index: duration
+#0 C:\xampp\htdocs\app\Views\cash-flow\cash-flow-list.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('cash-flow/cash-...', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\MainController.php(304): view('cash-flow/cash-...', Array)
+#5 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\MainController->show_cash_flow_list()
+#6 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#7 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-05 09:43:56 --> Undefined variable: totalConvexityFactor
+#0 C:\xampp\htdocs\app\Controllers\MainController.php(277): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 277, Array)
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\MainController->show_cash_flow_list()
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#3 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-05 09:44:20 --> Undefined index: convexity_factor
+#0 C:\xampp\htdocs\app\Views\cash-flow\cash-flow-list.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 227, Array)
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('cash-flow/cash-...', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\MainController.php(313): view('cash-flow/cash-...', Array)
+#5 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\MainController->show_cash_flow_list()
+#6 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#7 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-05 09:44:53 --> Undefined index: convexity_factor
+#0 C:\xampp\htdocs\app\Views\cash-flow\cash-flow-list.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 227, Array)
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('cash-flow/cash-...', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\MainController.php(313): view('cash-flow/cash-...', Array)
+#5 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\MainController->show_cash_flow_list()
+#6 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#7 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-05 09:44:54 --> Undefined index: convexity_factor
+#0 C:\xampp\htdocs\app\Views\cash-flow\cash-flow-list.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 227, Array)
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('cash-flow/cash-...', Array, true)
+#4 C:\xampp\htdocs\app\Controllers\MainController.php(313): view('cash-flow/cash-...', Array)
+#5 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\MainController->show_cash_flow_list()
+#6 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#7 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-05 10:04:27 --> Division by zero
+#0 C:\xampp\htdocs\app\Controllers\MainController.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 305, Array)
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\MainController->show_cash_flow_list()
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#3 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-05 11:15:54 --> Creation of dynamic property Config\Cache::$file is deprecated
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Cache\Handlers\FileHandler.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Xampp 8.1\\ht...', 57)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Cache\CacheFactory.php(55): CodeIgniter\Cache\Handlers\FileHandler->__construct(Object(Config\Cache))
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php(110): CodeIgniter\Cache\CacheFactory::getHandler(Object(Config\Cache))
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\BaseService.php(192): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php(105): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Common.php(74): CodeIgniter\Config\Services::cache()
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(654): cache()
+#7 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(324): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#8 D:\Xampp 8.1\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-05 11:15:54 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\Xampp 8.1\htdocs\app\Config\Events.php:33) in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\Xampp 8.1\\ht...', 137)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-05 19:08:44 --> Error: Class "Kint\Renderer\Renderer" not found
+[Method: GET, Route: /]
+in APPPATH\Config\Kint.php on line 44.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(499): CodeIgniter\Autoloader\Autoloader->configureKint()
+ 2 SYSTEMPATH\Boot.php(302): CodeIgniter\Autoloader\Autoloader->initializeKint(true)
+ 3 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 4 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 19:08:44 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Kint\Renderer\Renderer" not found
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(499): CodeIgniter\Autoloader\Autoloader->configureKint()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(302): CodeIgniter\Autoloader\Autoloader->initializeKint(true)
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(56): CodeIgniter\Boot::initializeKint()
+#3 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#4 {main}
+[Method: GET, Route: /]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 12:09:48 --> TypeError: CodeIgniter\Router\RouteCollection::__construct(): Argument #3 ($routing) must be of type Config\Routing, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 622
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 280.
+ 1 SYSTEMPATH\Config\Services.php(622): CodeIgniter\Router\RouteCollection->__construct(Object(CodeIgniter\Autoloader\FileLocator), Object(Config\Modules), null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::routes(false)
+ 3 SYSTEMPATH\Config\Services.php(619): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::routes()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('routes', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('routes')
+ 7 SYSTEMPATH\CodeIgniter.php(821): service('routes')
+ 8 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 12:09:48 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#4 {main}
+  thrown
+【Previous Exception】
+TypeError
+CodeIgniter\Router\RouteCollection::__construct(): Argument #3 ($routing) must be of type Config\Routing, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 622
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php(622): CodeIgniter\Router\RouteCollection->__construct(Object(CodeIgniter\Autoloader\FileLocator), Object(Config\Modules), NULL)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\BaseService.php(251): CodeIgniter\Config\Services::routes(false)
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php(619): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\BaseService.php(321): CodeIgniter\Config\Services::routes()
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('routes', Array)
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Common.php(1000): CodeIgniter\Config\BaseService::get('routes')
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(821): service('routes')
+#7 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#8 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+[Method: GET, Route: /]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 12:11:10 --> ErrorException: Attempt to read property "driver" on null
+[Method: GET, Route: /]
+in SYSTEMPATH\Config\Services.php on line 675.
+ 1 SYSTEMPATH\Config\Services.php(675): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "driver" on null', 'D:\\Xampp 8.1\\htdocs\\vendor\\codeigniter4\\framework\\system\\Config\\Services.php', 675)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::session(null, false)
+ 3 SYSTEMPATH\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 4 APPPATH\Controllers\BaseController.php(45): CodeIgniter\Config\Services::session()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 12:11:10 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "driver" on null
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php(675): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Xampp 8.1\\ht...', 675)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\BaseService.php(251): CodeIgniter\Config\Services::session(NULL, false)
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#3 D:\Xampp 8.1\htdocs\app\Controllers\BaseController.php(45): CodeIgniter\Config\Services::session()
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+[Method: GET, Route: /]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 12:12:14 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\RequestTrait.php on line 87.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'D:\\Xampp 8.1\\htdocs\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 87)
+ 2 SYSTEMPATH\Config\Services.php(697): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 5 APPPATH\Controllers\BaseController.php(45): CodeIgniter\Config\Services::session()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 12:12:14 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+foreach() argument must be of type array|object, string given
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\Xampp 8.1\\ht...', 87)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php(697): CodeIgniter\HTTP\Request->getIPAddress()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\BaseService.php(251): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#4 D:\Xampp 8.1\htdocs\app\Controllers\BaseController.php(45): CodeIgniter\Config\Services::session()
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#7 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+[Method: GET, Route: /]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 17:14:39 --> ErrorException: Attempt to read property "domain" on null
+[Method: GET, Route: /]
+in SYSTEMPATH\Session\Handlers\BaseHandler.php on line 119.
+ 1 SYSTEMPATH\Session\Handlers\BaseHandler.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "domain" on null', 'D:\\Xampp 8.1\\htdocs\\vendor\\codeigniter4\\framework\\system\\Session\\Handlers\\BaseHandler.php', 119)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(70): CodeIgniter\Session\Handlers\BaseHandler->__construct(Object(Config\Session), '::1')
+ 3 SYSTEMPATH\Config\Services.php(697): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 APPPATH\Controllers\BaseController.php(45): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:14:39 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "domain" on null
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Session\Handlers\BaseHandler.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Xampp 8.1\\ht...', 119)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Session\Handlers\FileHandler.php(70): CodeIgniter\Session\Handlers\BaseHandler->__construct(Object(Config\Session), '::1')
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php(697): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\BaseService.php(251): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#5 D:\Xampp 8.1\htdocs\app\Controllers\BaseController.php(45): CodeIgniter\Config\Services::session()
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#8 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+[Method: GET, Route: /]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 17:28:41 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736521.175300')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:28:56 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736536.801223')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:28:59 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736539.286441')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:29:01 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736541.323493')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:29:19 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736559.185154')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:29:34 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736574.243306')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:29:46 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736586.395342')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:29:48 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736587.999560')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:32:20 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736739.945985')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:32:22 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736742.002499')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:33:44 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736824.599816')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:33:47 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736826.924305')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:34:19 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: public]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736858.935959')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:35:08 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736907.969270')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:35:19 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736918.742173')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:35:20 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751736920.682724')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:36:05 --> ErrorException: Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".
+[Method: POST, Route: auth-login]
+in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(16384, 'Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 'D:\\Xampp 8.1\\htdocs\\vendor\\codeigniter4\\framework\\system\\Router\\RouteCollection.php', 1026)
+ 2 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 3 APPPATH\Config\Routes.php(35): CodeIgniter\Router\RouteCollection->match([...], 'auth-login', 'AuthController::login')
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\Xampp 8.1\\htdocs\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:36:05 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(16384, 'Passing lowerca...', 'D:\\Xampp 8.1\\ht...', 1026)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Router\RouteCollection.php(1026): trigger_error('Passing lowerca...', 16384)
+#2 D:\Xampp 8.1\htdocs\app\Config\Routes.php(35): CodeIgniter\Router\RouteCollection->match(Array, 'auth-login', 'AuthController:...')
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Router\RouteCollection.php(339): require('D:\\Xampp 8.1\\ht...')
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+[Method: POST, Route: auth-login]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 17:36:55 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751737014.947946')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:37:02 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751737022.273827')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:37:05 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751737025.036600')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:37:59 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751737078.939484')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:38:07 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751737087.506064')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:38:12 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751737092.785109')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:38:14 --> ErrorException: DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Controllers\MainController.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated', 'D:\\Xampp 8.1\\htdocs\\app\\Controllers\\MainController.php', 193)
+ 2 APPPATH\Controllers\MainController.php(193): DateTime->__construct(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:38:14 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'DateTime::__con...', 'D:\\Xampp 8.1\\ht...', 193)
+#1 D:\Xampp 8.1\htdocs\app\Controllers\MainController.php(193): DateTime->__construct(NULL)
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#7 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#8 {main}
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 17:38:19 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751737099.470409')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:40:49 --> TypeError: CodeIgniter\Security\Security::__construct(): Argument #1 ($config) must be of type Config\Security, null given, called in D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Config\Services.php on line 657
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\Security.php on line 194.
+ 1 SYSTEMPATH\Config\Services.php(657): CodeIgniter\Security\Security->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::security(null, false)
+ 3 SYSTEMPATH\Config\Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::security()
+ 5 SYSTEMPATH\Config\BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 6 SYSTEMPATH\Common.php(1000): CodeIgniter\Config\BaseService::get('security')
+ 7 SYSTEMPATH\Helpers\security_helper.php(22): service('security')
+ 8 SYSTEMPATH\Debug\Toolbar.php(491): sanitize_filename('debugbar_1751737248.852135')
+ 9 APPPATH\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+10 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:43:14 --> ErrorException: Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".
+[Method: GET, Route: auth-register]
+in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(16384, 'Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 'D:\\Xampp 8.1\\htdocs\\vendor\\codeigniter4\\framework\\system\\Router\\RouteCollection.php', 1026)
+ 2 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 3 APPPATH\Config\Routes.php(35): CodeIgniter\Router\RouteCollection->match([...], 'auth-register', 'AuthController::register')
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\Xampp 8.1\\htdocs\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:43:14 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(16384, 'Passing lowerca...', 'D:\\Xampp 8.1\\ht...', 1026)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Router\RouteCollection.php(1026): trigger_error('Passing lowerca...', 16384)
+#2 D:\Xampp 8.1\htdocs\app\Config\Routes.php(35): CodeIgniter\Router\RouteCollection->match(Array, 'auth-register', 'AuthController:...')
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Router\RouteCollection.php(339): require('D:\\Xampp 8.1\\ht...')
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+[Method: GET, Route: auth-register]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 17:44:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: bond-list]
+in APPPATH\Views\bond\bond-list.php on line 152.
+ 1 APPPATH\Views\bond\bond-list.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Xampp 8.1\\htdocs\\app\\Views\\bond\\bond-list.php', 152)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp 8.1\\htdocs\\app\\Views\\bond\\bond-list.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('bond/bond-list', [], true)
+ 5 APPPATH\Controllers\MainController.php(62): view('bond/bond-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->show_bond_list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:44:54 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Trying to access array offset on value of type null
+#0 D:\Xampp 8.1\htdocs\app\Views\bond\bond-list.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\Xampp 8.1\\ht...', 152)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\View\View.php(224): include('D:\\Xampp 8.1\\ht...')
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Common.php(1173): CodeIgniter\View\View->render('bond/bond-list', Array, true)
+#4 D:\Xampp 8.1\htdocs\app\Controllers\MainController.php(62): view('bond/bond-list', Array)
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MainController->show_bond_list()
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#7 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+[Method: GET, Route: bond-list]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 17:47:48 --> ErrorException: DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Controllers\MainController.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated', 'D:\\Xampp 8.1\\htdocs\\app\\Controllers\\MainController.php', 193)
+ 2 APPPATH\Controllers\MainController.php(193): DateTime->__construct(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:47:48 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'DateTime::__con...', 'D:\\Xampp 8.1\\ht...', 193)
+#1 D:\Xampp 8.1\htdocs\app\Controllers\MainController.php(193): DateTime->__construct(NULL)
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#7 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#8 {main}
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 17:49:21 --> ErrorException: DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Controllers\MainController.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated', 'D:\\Xampp 8.1\\htdocs\\app\\Controllers\\MainController.php', 193)
+ 2 APPPATH\Controllers\MainController.php(193): DateTime->__construct(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:49:21 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'DateTime::__con...', 'D:\\Xampp 8.1\\ht...', 193)
+#1 D:\Xampp 8.1\htdocs\app\Controllers\MainController.php(193): DateTime->__construct(NULL)
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#7 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#8 {main}
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 17:50:02 --> ErrorException: DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Controllers\MainController.php on line 195.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated', 'D:\\Xampp 8.1\\htdocs\\app\\Controllers\\MainController.php', 195)
+ 2 APPPATH\Controllers\MainController.php(195): DateTime->__construct(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:50:02 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'DateTime::__con...', 'D:\\Xampp 8.1\\ht...', 195)
+#1 D:\Xampp 8.1\htdocs\app\Controllers\MainController.php(195): DateTime->__construct(NULL)
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#7 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#8 {main}
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 17:50:39 --> ErrorException: Undefined variable $bond
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Views\cash-flow\cash-flow-list.php on line 3.
+ 1 APPPATH\Views\cash-flow\cash-flow-list.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bond', 'D:\\Xampp 8.1\\htdocs\\app\\Views\\cash-flow\\cash-flow-list.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp 8.1\\htdocs\\app\\Views\\cash-flow\\cash-flow-list.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('cash-flow/cash-flow-list', [], true)
+ 5 APPPATH\Controllers\MainController.php(319): view('cash-flow/cash-flow-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:50:39 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable $bond
+#0 D:\Xampp 8.1\htdocs\app\Views\cash-flow\cash-flow-list.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp 8.1\\ht...', 3)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\View\View.php(224): include('D:\\Xampp 8.1\\ht...')
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Common.php(1173): CodeIgniter\View\View->render('cash-flow/cash-...', Array, true)
+#4 D:\Xampp 8.1\htdocs\app\Controllers\MainController.php(319): view('cash-flow/cash-...', Array)
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#7 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 17:51:24 --> ErrorException: Undefined variable $results
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Views\cash-flow\cash-flow-list.php on line 79.
+ 1 APPPATH\Views\cash-flow\cash-flow-list.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'D:\\Xampp 8.1\\htdocs\\app\\Views\\cash-flow\\cash-flow-list.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Xampp 8.1\\htdocs\\app\\Views\\cash-flow\\cash-flow-list.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('cash-flow/cash-flow-list', [], true)
+ 5 APPPATH\Controllers\MainController.php(319): view('cash-flow/cash-flow-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:51:24 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable $results
+#0 D:\Xampp 8.1\htdocs\app\Views\cash-flow\cash-flow-list.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp 8.1\\ht...', 79)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\View\View.php(224): include('D:\\Xampp 8.1\\ht...')
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Common.php(1173): CodeIgniter\View\View->render('cash-flow/cash-...', Array, true)
+#4 D:\Xampp 8.1\htdocs\app\Controllers\MainController.php(319): view('cash-flow/cash-...', Array)
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+#6 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#7 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

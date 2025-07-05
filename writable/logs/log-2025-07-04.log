@@ -1,0 +1,7 @@
+CRITICAL - 2025-07-04 17:34:36 --> Division by zero
+#0 C:\xampp\htdocs\app\Controllers\MainController.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 299, Array)
+#1 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\MainController->show_cash_flow_list()
+#2 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#3 C:\xampp\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
