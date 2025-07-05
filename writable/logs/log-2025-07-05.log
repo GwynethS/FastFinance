@@ -1011,3 +1011,97 @@ Undefined variable $results
 [Method: GET, Route: cash-flow-list]
 in APPPATH\Views\errors\html\error_exception.php on line 202.
  1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 18:10:28 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Financial" not found
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Controllers\MainController.php on line 336.
+ 1 APPPATH\Controllers\MainController.php(310): App\Controllers\MainController->calculateTCEA([...], 180, 360)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 18:10:28 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Class "PhpOffice\PhpSpreadsheet\Calculation\Financial" not found
+#0 D:\Xampp 8.1\htdocs\app\Controllers\MainController.php(310): App\Controllers\MainController->calculateTCEA(Array, 180, 360)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#7 {main}
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 18:15:37 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Financial\CashFlow" not found
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Controllers\MainController.php on line 336.
+ 1 APPPATH\Controllers\MainController.php(310): App\Controllers\MainController->calculateTCEA([...], 180, 360)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 18:15:37 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Class "PhpOffice\PhpSpreadsheet\Calculation\Financial\CashFlow" not found
+#0 D:\Xampp 8.1\htdocs\app\Controllers\MainController.php(310): App\Controllers\MainController->calculateTCEA(Array, 180, 360)
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#7 {main}
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-05 18:25:01 --> Error: Call to undefined method App\Controllers\MainController::calculateTCEA()
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Controllers\MainController.php on line 310.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 18:25:01 --> ErrorException: Uncaught Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri in D:\Xampp 8.1\htdocs\app\Views\errors\html\error_exception.php:202
+Stack trace:
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(396): include()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(399): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Debug\Exceptions.php(194): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined method App\Controllers\MainController::calculateTCEA()
+#0 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MainController->show_cash_flow_list()
+#1 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#2 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp 8.1\htdocs\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#5 D:\Xampp 8.1\htdocs\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#6 {main}
+[Method: GET, Route: cash-flow-list]
+in APPPATH\Views\errors\html\error_exception.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

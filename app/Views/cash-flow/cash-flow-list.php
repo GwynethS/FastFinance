@@ -97,13 +97,13 @@ $coinSymbol = isset($bond) ? ($bond['coin'] == 'SOLES' ? 'S/. ' : '$') : '';
                                             <label for="issuer-tcea" class="form-label">TCEA Emisor</label>
                                             <input type="text" class="form-control pointer-none" name="issuer-tcea"
                                                    id="issuer-tcea"
-                                                   value="<?php /*echo $results['modified-duration'];*/ ?>">
+                                                   value="<?php echo number_format($results['issuer_tcea'], 4); ?>">
                                         </div>
                                         <div class="col-lg-4 mb-3">
                                             <label for="investor-trea" class="form-label">TREA Inversor</label>
                                             <input type="text" class="form-control pointer-none" name="investor-trea"
                                                    id="investor-trea"
-                                                   value="<?php /*echo $results['modified-duration'];*/ ?>">
+                                                   value="<?php echo number_format($results['investor_trea'], 4)?>">
                                         </div>
                                         <div class="col-lg-4 mb-3">
                                             <label for="bond-price" class="form-label">Precio del bono</label>

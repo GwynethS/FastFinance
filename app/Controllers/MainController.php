@@ -11,6 +11,7 @@ use App\Models\UserSettingModel;
 use PHPMailer;
 use PHPExcel_IOFactory;
 use PHPExcel_Shared_Date;
+use PhpOffice\PhpSpreadsheet\Calculation\Financial\CashFlow\Variable\Periodic;
 
 class MainController extends BaseController
 {
@@ -200,7 +201,7 @@ class MainController extends BaseController
             $initialBalance = $bond['face_value'];
 
             $initialIssuerFlow = $bond['market_value'] - $issuerCosts;
-            $initialInvestorFlow = $bond['market_value'] + $investorCosts;
+            $initialInvestorFlow = ($bond['market_value'] + $investorCosts) * -1;
 
             $totalPresentValue = $totalWeightedPresentValue = $totalConvexityFactor = 0;
 
@@ -306,11 +307,20 @@ class MainController extends BaseController
             $modifiedDuration = $duration / (1 + $cokPeriod);
             $convexity = $totalPresentValue != 0 ? $totalConvexityFactor / ($totalPresentValue * pow(1 + $cokPeriod, 2) * pow($bond['year_days'] / $bond['payment_frequency'], 2)) : 0;
 
+            $issuerFlowTIR = $this->calculateTIR($cashFlow, 'issuer_flow');
+            $investorFlowTIR = $this->calculateTIR($cashFlow, 'investor_flow');
+
+            $issuerTCEA = pow(1 + $issuerFlowTIR, $bond['year_days'] / $bond['payment_frequency']) - 1;
+            $investorTREA = pow(1 + $investorFlowTIR, $bond['year_days'] / $bond['payment_frequency']) - 1;
+
+
             $results = [
                 'duration' => round($duration, 4),
                 'modified_duration' => round($modifiedDuration, 4),
                 'convexity' => round($convexity, 4),
                 'bond_price' => $totalPresentValue,
+                'issuer_tcea' => round($issuerTCEA * 100, 4),
+                'investor_trea' => round($investorTREA * 100, 4),
             ];
 
             $data['results'] = $results;
@@ -318,4 +328,17 @@ class MainController extends BaseController
 
         return view('cash-flow/cash-flow-list', $data);
     }
+
+    public function calculateTIR(array $cashFlow, $key)
+    {
+        $flows = [];
+        foreach ($cashFlow as $row) {
+            if (isset($row[$key])) {
+                $flows[] = (float)$row[$key];
+            }
+        }
+
+        return Periodic::rate($flows);
+    }
+
 }
