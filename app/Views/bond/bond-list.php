@@ -1,5 +1,6 @@
 <?php
 $session = \Config\Services::session();
+$role = $session->get('role')['alias'];
 ?>
 <!doctype html>
 <html lang="en">
@@ -30,9 +31,11 @@ $session = \Config\Services::session();
 
                 <div class="d-flex justify-content-between align-items-center">
                     <?= $page_title ?>
-                    <button class="btn btn-submit mb-2" data-bs-toggle="modal" data-bs-target="#createBondModal">
-                        <i class="bx bx-plus"></i> Agregar bono
-                    </button>
+                    <?php if (in_array($role, ['admin', 'issuer'])) { ?>
+                        <button class="btn btn-submit mb-2" data-bs-toggle="modal" data-bs-target="#createBondModal">
+                            <i class="bx bx-plus"></i> Agregar bono
+                        </button>
+                    <?php } ?>
                 </div>
 
                 <div class="row">

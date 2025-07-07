@@ -1,6 +1,7 @@
 <?php
 $session = \Config\Services::session();
 $coinSymbol = isset($bond) ? ($bond['coin'] == 'SOLES' ? 'S/. ' : '$') : '';
+$role = $session->get('role')['alias'];
 ?>
 <!doctype html>
 <html lang="en">
@@ -77,7 +78,7 @@ $coinSymbol = isset($bond) ? ($bond['coin'] == 'SOLES' ? 'S/. ' : '$') : '';
                                             <label for="duration" class="form-label">Duración</label>
                                             <input type="text" class="form-control pointer-none" name="duration"
                                                    id="duration"
-                                                   value="<?php echo number_format($results['duration'], 4); ?>">
+                                                   value="<?= number_format($results['duration'], 4); ?>">
                                         </div>
                                         <div class="col-lg-4 mb-3">
                                             <label for="modified-duration" class="form-label">Duración
@@ -85,31 +86,36 @@ $coinSymbol = isset($bond) ? ($bond['coin'] == 'SOLES' ? 'S/. ' : '$') : '';
                                             <input type="text" class="form-control pointer-none"
                                                    name="modified-duration"
                                                    id="modified-duration"
-                                                   value="<?php echo number_format($results['modified_duration'], 4); ?>">
+                                                   value="<?= number_format($results['modified_duration'], 4); ?>">
                                         </div>
                                         <div class="col-lg-4 mb-3">
                                             <label for="convexity" class="form-label">Convexidad</label>
                                             <input type="text" class="form-control pointer-none" name="convexity"
                                                    id="convexity"
-                                                   value="<?php echo number_format($results['convexity'], 4); ?>">
+                                                   value="<?= number_format($results['convexity'], 4); ?>">
                                         </div>
-                                        <div class="col-lg-4 mb-3">
-                                            <label for="issuer-tcea" class="form-label">TCEA Emisor</label>
-                                            <input type="text" class="form-control pointer-none" name="issuer-tcea"
-                                                   id="issuer-tcea"
-                                                   value="<?php echo number_format($results['issuer_tcea'], 4); ?>">
-                                        </div>
-                                        <div class="col-lg-4 mb-3">
-                                            <label for="investor-trea" class="form-label">TREA Inversor</label>
-                                            <input type="text" class="form-control pointer-none" name="investor-trea"
-                                                   id="investor-trea"
-                                                   value="<?php echo number_format($results['investor_trea'], 4)?>">
-                                        </div>
+                                        <?php if (in_array($role, ['admin', 'issuer'])) { ?>
+                                            <div class="col-lg-4 mb-3">
+                                                <label for="issuer-tcea" class="form-label">TCEA Emisor</label>
+                                                <input type="text" class="form-control pointer-none" name="issuer-tcea"
+                                                       id="issuer-tcea"
+                                                       value="<?= number_format($results['issuer_tcea'], 4); ?>">
+                                            </div>
+                                        <?php } ?>
+                                        <?php if (in_array($role, ['admin', 'investor'])) { ?>
+                                            <div class="col-lg-4 mb-3">
+                                                <label for="investor-trea" class="form-label">TREA Inversor</label>
+                                                <input type="text" class="form-control pointer-none"
+                                                       name="investor-trea"
+                                                       id="investor-trea"
+                                                       value="<?= number_format($results['investor_trea'], 4) ?>">
+                                            </div>
+                                        <?php } ?>
                                         <div class="col-lg-4 mb-3">
                                             <label for="bond-price" class="form-label">Precio del bono</label>
                                             <input type="text" class="form-control pointer-none" name="bond-price"
                                                    id="bond-price"
-                                                   value="<?php echo number_format($results['bond_price'], 2); ?>">
+                                                   value="<?= number_format($results['bond_price'], 2); ?>">
                                         </div>
                                     </div>
                                 </div>

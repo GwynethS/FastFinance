@@ -48,6 +48,23 @@
                         </div>
 
                         <div class="mb-3">
+                            <label for="role_id" class="form-label">Rol</label>
+
+                            <select name="role_id" id="role_id" class="form-select" required>
+                                <option value="">SELECCIONE</option>
+                                <option value="2">
+                                    EMISOR
+                                </option>
+                                <option value="3">
+                                    INVERSIONISTA
+                                </option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Este campo es obligatorio
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
                             <label class="form-label" for="password">Contraseña</label>
                             <input id="password" type="password" class="form-control" placeholder="Ingresar contraseña"
                                    name="password" aria-label="Password" required>

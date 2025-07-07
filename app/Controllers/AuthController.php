@@ -47,9 +47,10 @@ class AuthController extends BaseController
                 if(!isset($existingEmail)) {
 
                     $dataInsert = [
+                        'role_id' => $this->request->getPost('role_id'),
                         'username' => $username,
                         'email' => $email,
-                        'password' => $this->request->getVar('password'),
+                        'password' => $this->request->getPost('password'),
                     ];
 
                     $userModel->insert($dataInsert);
@@ -99,7 +100,10 @@ class AuthController extends BaseController
                 $data['error'] = 'El usuario y contraseña son requeridos';
                 return view('auth-login', $data);
             }
+
             $userModel = new UserModel();
+            $roleModel = new RoleModel();
+
             $userdata = $userModel->where('username', $user)->first();
 
             if (isset($userdata['username'])) {
@@ -108,6 +112,9 @@ class AuthController extends BaseController
 
                     return view('auth-login', $data);
                 } else {
+
+                    $userdata['role'] = $roleModel->where('id', $userdata['role_id'])->first();
+
                     $this->setUserSession($userdata);
 
                     return redirect()->to('/public');

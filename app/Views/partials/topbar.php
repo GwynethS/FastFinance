@@ -17,8 +17,10 @@
         <div class="d-flex align-items-center gap-2 text-dark">
             <i class='bx bxs-user' style="font-size: 2rem;"></i>
             <div>
-                <p class="m-0 fw-bold"><?php echo $session->get('username'); ?></p>
-                <p class="m-0"><?php echo $session->get('email'); ?></p>
+                <p class="m-0 fw-bold"><?= $session->get('username'); ?>
+                    <span class="text-primary"><?= '(' . $session->get('role')['name'] . ')'; ?></span>
+                </p>
+                <p class="m-0"><?= $session->get('email'); ?></p>
             </div>
         </div>
     </div>
