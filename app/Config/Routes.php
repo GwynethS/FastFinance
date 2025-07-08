@@ -114,6 +114,9 @@ $routes->get('bond-purchase/(:any)', 'MainController::bond_purchase/$1');;
 $routes->post('bond-delete', 'MainController::bond_delete');
 $routes->get('cash-flow-list', 'MainController::show_cash_flow_list');
 
+//SUPPORT
+$routes->get('faq', 'SupportController::show_faq');
+
 //Component section routing
 $routes->get('ui-alerts', 'ComponentController::show_ui_alerts');
 $routes->get('ui-buttons', 'ComponentController::show_ui_buttons');
