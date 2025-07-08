@@ -795,7 +795,7 @@ $role = $session->get('role')['alias'];
                         });
                     }
                 },
-                error: function () {
+                error: function (e) {
                     Swal.fire({
                         title: "Se produjo un error inesperado",
                         text: (e.responseJSON && e.responseJSON.message) || "No hay detalles adicionales disponibles",
