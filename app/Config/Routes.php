@@ -116,6 +116,8 @@ $routes->get('cash-flow-list', 'MainController::show_cash_flow_list');
 
 //SUPPORT
 $routes->get('faq', 'SupportController::show_faq');
+$routes->post('support-request', 'SupportController::support_request');
+
 
 //Component section routing
 $routes->get('ui-alerts', 'ComponentController::show_ui_alerts');
