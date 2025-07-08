@@ -239,7 +239,7 @@ class MainController extends BaseController
 
         $bondModel = new BondModel();
 
-        $id = $this->request->getGet('bond_id');
+        $id = $this->request->getPost('bond_id');
 
         $bondModel->update($id, ['issue_date' => (new \DateTime())->format('Y-m-d'), 'state' => 2, 'edited_by' => $session->get('email'), 'edited_at' => (new \DateTime())->format('Y-m-d H:i:s')]);
 
