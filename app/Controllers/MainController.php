@@ -30,6 +30,8 @@ class MainController extends BaseController
             return redirect()->to('/public/auth-login');
         }
 
+        $role = $session->get('role')['alias'];
+
         $data = [
             'title_meta' => view('partials/title-meta', ['title' => 'Lista de bonos']),
             'page_title' => view('partials/page-title', ['title' => 'Lista de bonos', 'pagetitle' => 'Lista de bonos']),
@@ -42,8 +44,15 @@ class MainController extends BaseController
 
         $data['userSettings'] = $userSettings;
 
-        $bonds = $bondModel->where('user_id', $session->get('id'))
-            ->where('state', 1);
+        $bonds = $bondModel;
+
+        if (in_array($role, ['admin', 'issuer'])) {
+            $bonds->where('user_id', $session->get('id'))
+                ->where('state !=', 0);
+        } else {
+            $bonds->where('investor_id', $session->get('id'))
+                ->orWhere('state', 2);
+        }
 
         $code = $this->request->getGet('code');
         $name = $this->request->getGet('name');
@@ -61,6 +70,33 @@ class MainController extends BaseController
         $data['bonds'] = $bonds;
 
         return view('bond/bond-list', $data);
+    }
+
+    public function bond_get_by_id()
+    {
+        $session = \Config\Services::session();
+
+        $username = $session->get('username');
+
+        if (!isset($username)) {
+            $dataResponse = ['success' => false, 'code' => 'AUTH_ERROR', 'message' => 'Su sesión ha expirado. Vuelva a iniciar sesión.'];
+
+            return $this->response->setJSON($dataResponse);
+        }
+
+        $bondModel = new BondModel();
+
+        $id = $this->request->getGet('id');
+
+        $bond = $bondModel->where('id', $id)->first();
+
+        if (isset($bond)) {
+            $dataResponse = ['success' => true, 'data' => $bond];
+        } else {
+            $dataResponse = ['success' => false, 'message' => 'No se encontró el bono'];
+        }
+
+        return $this->response->setJSON($dataResponse);
     }
 
     public function bond_create()
@@ -87,7 +123,7 @@ class MainController extends BaseController
         $payment_frequency = $this->request->getPost('payment_frequency');
         $total_grace = $this->request->getPost('total_grace');
         $partial_grace = $this->request->getPost('partial_grace');
-        $issue_date = $this->request->getPost('issue_date');
+//        $issue_date = $this->request->getPost('issue_date');
 
         $premium = $this->request->getPost('premium');
         $structuring_fee = $this->request->getPost('structuring_fee');
@@ -109,7 +145,7 @@ class MainController extends BaseController
             'payment_frequency' => $payment_frequency,
             'total_grace' => $total_grace,
             'partial_grace' => $partial_grace,
-            'issue_date' => $issue_date,
+//            'issue_date' => $issue_date,
             'premium' => $premium,
             'structuring_fee' => $structuring_fee,
             'placement_fee' => $placement_fee,
@@ -126,13 +162,143 @@ class MainController extends BaseController
         return redirect()->to('/public/bond-list');
     }
 
-    public function show_cash_flow_list()
+    public function bond_edit()
     {
         $session = \Config\Services::session();
+
         $username = $session->get('username');
+
         if (!isset($username)) {
             return redirect()->to('/public/auth-login');
         }
+
+        $bondModel = new BondModel();
+
+        $id = $this->request->getPost('bond_id');
+
+        $name = $this->request->getPost('name');
+        $coin = $this->request->getPost('coin');
+        $face_value = $this->request->getPost('face_value');
+        $market_value = $this->request->getPost('market_value');
+        $interest_rate_type = $this->request->getPost('interest_rate_type');
+        $capitalization_period = $this->request->getPost('capitalization_period');
+        $interest_rate = $this->request->getPost('interest_rate');
+        $cok = $this->request->getPost('cok');
+        $term_years = $this->request->getPost('term_years');
+        $payment_frequency = $this->request->getPost('payment_frequency');
+        $total_grace = $this->request->getPost('total_grace');
+        $partial_grace = $this->request->getPost('partial_grace');
+        $issue_date = $this->request->getPost('issue_date');
+
+        $premium = $this->request->getPost('premium');
+        $structuring_fee = $this->request->getPost('structuring_fee');
+        $placement_fee = $this->request->getPost('placement_fee');
+        $floatation_fee = $this->request->getPost('floatation_fee');
+        $cavali_fee = $this->request->getPost('cavali_fee');
+
+        $dataUpdate = [
+            'user_id' => $session->get('id'),
+            'name' => $name,
+            'coin' => $coin,
+            'face_value' => $face_value,
+            'market_value' => $market_value,
+            'interest_rate_type' => $interest_rate_type,
+            'capitalization_period' => $capitalization_period ?: null,
+            'interest_rate' => $interest_rate,
+            'cok' => $cok,
+            'term_years' => $term_years,
+            'payment_frequency' => $payment_frequency,
+            'total_grace' => $total_grace,
+            'partial_grace' => $partial_grace,
+            'issue_date' => $issue_date,
+            'premium' => $premium,
+            'structuring_fee' => $structuring_fee,
+            'placement_fee' => $placement_fee,
+            'floatation_fee' => $floatation_fee,
+            'cavali_fee' => $cavali_fee,
+            'edited_by' => $session->get('email'),
+            'edited_at' => (new \DateTime())->format('Y-m-d H:i:s')
+        ];
+
+        $bondModel->update($id, $dataUpdate);
+
+        return redirect()->to('/public/bond-list');
+    }
+
+    public function bond_issue()
+    {
+        $session = \Config\Services::session();
+
+        $username = $session->get('username');
+
+        if (!isset($username)) {
+            $dataResponse = ['success' => false, 'code' => 'AUTH_ERROR', 'message' => 'Su sesión ha expirado. Vuelva a iniciar sesión.'];
+
+            return json_encode($dataResponse);
+        }
+
+        $bondModel = new BondModel();
+
+        $id = $this->request->getGet('bond_id');
+
+        $bondModel->update($id, ['issue_date' => (new \DateTime())->format('Y-m-d'), 'state' => 2, 'edited_by' => $session->get('email'), 'edited_at' => (new \DateTime())->format('Y-m-d H:i:s')]);
+
+        $dataResponse = ['success' => true];
+
+        return $this->response->setJSON($dataResponse);
+    }
+
+    public function bond_purchase($id)
+    {
+        $session = \Config\Services::session();
+
+        $username = $session->get('username');
+
+        if (!isset($username)) {
+            return redirect()->to('/public/auth-login');
+        }
+
+        $bondModel = new BondModel();
+
+        $bondModel->update($id, ['investor_id' => $session->get('id'), 'state' => 3, 'edited_by' => $session->get('email'), 'edited_at' => (new \DateTime())->format('Y-m-d H:i:s')]);
+
+        return redirect()->to('/public/bond-list');
+    }
+
+    public function bond_delete()
+    {
+        $session = \Config\Services::session();
+
+        $username = $session->get('username');
+
+        if (!isset($username)) {
+            $dataResponse = ['success' => false, 'code' => 'AUTH_ERROR', 'message' => 'Su sesión ha expirado. Vuelva a iniciar sesión.'];
+
+            return json_encode($dataResponse);
+        }
+
+        $bondModel = new BondModel();
+
+        $id = $this->request->getPost('bond_id');
+
+        $bondModel->update($id, ['state' => 0, 'edited_by' => $session->get('email'), 'edited_at' => (new \DateTime())->format('Y-m-d H:i:s')]);
+
+        $dataResponse = ['success' => true];
+
+        return $this->response->setJSON($dataResponse);
+    }
+
+    public function show_cash_flow_list()
+    {
+        $session = \Config\Services::session();
+
+        $username = $session->get('username');
+
+        if (!isset($username)) {
+            return redirect()->to('/public/auth-login');
+        }
+
+        $role = $session->get('role')['alias'];
 
         $data = [
             'title_meta' => view('partials/title-meta', ['title' => 'Flujo de caja']),
@@ -141,8 +307,26 @@ class MainController extends BaseController
 
         $bondModel = new BondModel();
 
-        $bond = $bondModel->where('user_id', $session->get('id'))
-            ->where('state', 1);
+        $bonds = $bondModel;
+
+        if (in_array($role, ['admin', 'issuer'])) {
+            $bonds->where('user_id', $session->get('id'))
+                ->where('state !=', 0);
+        } else {
+            $bonds->where('investor_id', $session->get('id'))
+                ->orWhere('state', 2);
+        }
+
+        $bonds = $bonds->findAll();
+
+        $data['bondCodes'] = array_column($bonds, 'code');
+        $data['bondNames'] = array_column($bonds, 'name');
+
+        $bond = $bondModel->groupStart()
+            ->where('user_id', $session->get('id'))
+            ->orWhere('investor_id', $session->get('id'))
+            ->groupEnd()
+            ->where('state !=', 0);
 
         $code = $this->request->getGet('code');
         $name = $this->request->getGet('name');
@@ -182,7 +366,6 @@ class MainController extends BaseController
             $totalPeriods = $bond['term_years'] * $periodsByYear;
 
             $cok = $bond['cok'] / 100;
-            $cokPeriod = 0;
 
             if ($bond['payment_frequency'] != 360) {
                 $cokPeriod = pow(1 + $cok, $bond['payment_frequency'] / $bond['year_days']) - 1;

@@ -67,55 +67,6 @@ $routes->get('layouts-hori-preloader', 'Front::show_layouts_hori_preloader');
 $routes->get('layouts-hori-colored-header', 'Front::show_layouts_hori_colored_header');
 $routes->get('layouts-hori-scrollable', 'Front::show_layouts_hori_scrollable');
 
-//App section routing
-$routes->get('calendar', 'AppController::show_calendar');
-$routes->get('calendar-full', 'AppController::show_fullcalendar');
-$routes->get('chat', 'AppController::show_chat');
-$routes->get('apps-filemanager', 'AppController::show_apps_filemanager');
-
-$routes->get('ecommerce-products', 'AppController::show_ecommerce_products');
-$routes->get('ecommerce-product-detail', 'AppController::show_ecommerce_product_detail');
-$routes->get('ecommerce-orders', 'AppController::show_ecommerce_orders');
-$routes->get('ecommerce-customers', 'AppController::show_ecommerce_customers');
-$routes->get('ecommerce-cart', 'AppController::show_ecommerce_cart');
-$routes->get('ecommerce-checkout', 'AppController::show_ecommerce_checkout');
-$routes->get('ecommerce-shops', 'AppController::show_ecommerce_shops');
-$routes->get('ecommerce-add-product', 'AppController::show_ecommerce_add_product');
-
-$routes->get('crypto-wallet', 'AppController::show_crypto_wallet');
-$routes->get('crypto-buy-sell', 'AppController::show_crypto_buy_sell');
-$routes->get('crypto-exchange', 'AppController::show_crypto_exchange');
-$routes->get('crypto-lending', 'AppController::show_crypto_lending');
-$routes->get('crypto-orders', 'AppController::show_crypto_orders');
-$routes->get('crypto-kyc-application', 'AppController::show_crypto_kyc_application');
-$routes->get('crypto-ico-landing', 'AppController::show_crypto_ico_landing');
-
-$routes->get('email-inbox', 'AppController::show_email_inbox');
-$routes->get('email-read', 'AppController::show_email_read');
-$routes->get('email-template-basic', 'AppController::show_email_template_basic');
-$routes->get('email-template-alert', 'AppController::show_email_template_alert');
-$routes->get('email-template-billing', 'AppController::show_email_template_billing');
-
-$routes->get('invoices-list', 'AppController::show_invoices_list');
-$routes->get('invoices-detail', 'AppController::show_invoices_detail');
-
-$routes->get('projects-grid', 'AppController::show_projects_grid');
-$routes->get('projects-list', 'AppController::show_projects_list');
-$routes->get('projects-overview', 'AppController::show_projects_overview');
-$routes->get('projects-create', 'AppController::show_projects_create');
-
-$routes->get('tasks-list', 'AppController::show_tasks_list');
-$routes->get('tasks-kanban', 'AppController::show_tasks_kanban');
-$routes->get('tasks-create', 'AppController::show_tasks_create');
-
-$routes->get('contacts-grid', 'AppController::show_contacts_grid');
-$routes->get('contacts-list', 'AppController::show_contacts_list');
-$routes->get('contacts-profile', 'AppController::show_contacts_profile');
-
-$routes->get('blog-list', 'AppController::show_blog_list');
-$routes->get('blog-grid', 'AppController::show_blog_grid');
-$routes->get('blog-details', 'AppController::show_blog_details');
-
 //Pages section routing
 /*$routes->get('auth-login', 'AuthController::login');
 $routes->post('auth-login', 'AuthController::login');
@@ -155,7 +106,12 @@ $routes->post('user-settings', 'UserController::show_user_settings');
 
 //MAIN
 $routes->get('bond-list', 'MainController::show_bond_list');
+$routes->get('bond-get-by-id', 'MainController::bond_get_by_id');
 $routes->post('bond-create', 'MainController::bond_create');
+$routes->post('bond-edit', 'MainController::bond_edit');
+$routes->post('bond-issue', 'MainController::bond_issue');
+$routes->get('bond-purchase/(:any)', 'MainController::bond_purchase/$1');;
+$routes->post('bond-delete', 'MainController::bond_delete');
 $routes->get('cash-flow-list', 'MainController::show_cash_flow_list');
 
 //Component section routing

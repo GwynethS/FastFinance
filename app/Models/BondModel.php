@@ -7,6 +7,7 @@ class BondModel extends Model
     protected $table = 'bond';
     protected $allowedFields = [
         'user_id',
+        'investor_id',
         'code',
         'name',
         'coin',

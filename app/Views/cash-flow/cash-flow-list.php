@@ -10,6 +10,9 @@ $role = $session->get('role')['alias'];
     <?= $title_meta ?>
     <?= $this->include('partials/head-css') ?>
 
+    <link href="/public/assets/libs/dropzone/min/dropzone.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/public/assets/libs/select2/select2.min.css" rel="stylesheet">
+
     <style>
         .pointer-none {
             pointer-events: none;
@@ -42,14 +45,30 @@ $role = $session->get('role')['alias'];
                                     <div class="row align-items-center">
                                         <div class="col-lg-5">
                                             <label for="code" class="form-label">Código del bono</label>
-                                            <input type="text" class="form-control" name="code" id="code"
-                                                   value="<?php if (isset($_GET['code'])) echo $_GET['code']; ?>">
+                                            <select name="code" id="code" class="form-select">
+                                                <option value="">SELECCIONE</option>
+                                                <?php if (isset($bondCodes)) {
+                                                    foreach ($bondCodes as $bondCode) { ?>
+                                                        <option value="<?= $bondCode ?>" <?php if (isset($_GET['code']) and $_GET['code'] == $bondCode) echo 'selected'; ?>>
+                                                            <?= $bondCode ?>
+                                                        </option>
+                                                    <?php }
+                                                } ?>
+                                            </select>
                                         </div>
 
                                         <div class="col-lg-5">
                                             <label for="name" class="form-label">Nombre del bono</label>
-                                            <input type="text" class="form-control" name="name" id="name"
-                                                   value="<?php if (isset($_GET['name'])) echo $_GET['name']; ?>">
+                                            <select name="name" id="name" class="form-select">
+                                                <option value="">SELECCIONE</option>
+                                                <?php if (isset($bondNames)) {
+                                                    foreach ($bondNames as $bondName) { ?>
+                                                        <option value="<?= $bondName ?>" <?php if (isset($_GET['name']) and $_GET['name'] == $bondName) echo 'selected'; ?>>
+                                                            <?= $bondName ?>
+                                                        </option>
+                                                    <?php }
+                                                } ?>
+                                            </select>
                                         </div>
                                         <div class="col-lg-2">
                                             <div class="d-flex flex-column justify-content-evenly align-items-center gap-2">
@@ -160,12 +179,16 @@ $role = $session->get('role')['alias'];
                                                 <th class="text-center" style="vertical-align: middle">
                                                     Prima
                                                 </th>
-                                                <th class="text-center" style="vertical-align: middle">
-                                                    Flujo del emisor
-                                                </th>
-                                                <th class="text-center" style="vertical-align: middle">
-                                                    Flujo del inversor
-                                                </th>
+                                                <?php if (in_array($role, ['admin', 'issuer'])) { ?>
+                                                    <th class="text-center" style="vertical-align: middle">
+                                                        Flujo del emisor
+                                                    </th>
+                                                <?php } ?>
+                                                <?php if (in_array($role, ['admin', 'investor'])) { ?>
+                                                    <th class="text-center" style="vertical-align: middle">
+                                                        Flujo del inversor
+                                                    </th>
+                                                <?php } ?>
                                                 <th class="text-center" style="vertical-align: middle">
                                                     Flujo actual
                                                 </th>
@@ -216,14 +239,18 @@ $role = $session->get('role')['alias'];
                                                         class="text-center text-nowrap">
                                                         <?= is_numeric($row['premium']) ? $coinSymbol . number_format($row['premium'], 2) : $row['premium']; ?>
                                                     </td>
-                                                    <td style="vertical-align: middle;"
-                                                        class="text-center text-nowrap">
-                                                        <?= is_numeric($row['issuer_flow']) ? $coinSymbol . number_format($row['issuer_flow'], 2) : $row['issuer_flow']; ?>
-                                                    </td>
-                                                    <td style="vertical-align: middle;"
-                                                        class="text-center text-nowrap">
-                                                        <?= is_numeric($row['investor_flow']) ? $coinSymbol . number_format($row['investor_flow'], 2) : $row['investor_flow']; ?>
-                                                    </td>
+                                                    <?php if (in_array($role, ['admin', 'issuer'])) { ?>
+                                                        <td style="vertical-align: middle;"
+                                                            class="text-center text-nowrap">
+                                                            <?= is_numeric($row['issuer_flow']) ? $coinSymbol . number_format($row['issuer_flow'], 2) : $row['issuer_flow']; ?>
+                                                        </td>
+                                                    <?php } ?>
+                                                    <?php if (in_array($role, ['admin', 'investor'])) { ?>
+                                                        <td style="vertical-align: middle;"
+                                                            class="text-center text-nowrap">
+                                                            <?= is_numeric($row['investor_flow']) ? $coinSymbol . number_format($row['investor_flow'], 2) : $row['investor_flow']; ?>
+                                                        </td>
+                                                    <?php } ?>
                                                     <td style="vertical-align: middle;"
                                                         class="text-center text-nowrap">
                                                         <?= is_numeric($row['present_value']) ? $coinSymbol . number_format($row['present_value'], 2) : $row['present_value']; ?>
@@ -255,6 +282,12 @@ $role = $session->get('role')['alias'];
 
 <?= $this->include('partials/vendor-scripts') ?>
 
+<script src="/public/assets/libs/dropzone/min/dropzone.min.js"></script>
+<script src="/public/assets/libs/select2/select2.min.js"></script>
+
 <script src="/public/assets/js/app.js"></script>
+<script type="text/javascript">
+    $('.select2').select2();
+</script>
 </body>
 </html>
