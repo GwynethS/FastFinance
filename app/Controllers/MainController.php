@@ -381,6 +381,7 @@ class MainController extends BaseController
             $faceValue = $bond['face_value'];
             $totalGracePeriods = $bond['total_grace'];
             $partialGracePeriods = $bond['partial_grace'];
+            $sumGracePeriods = $totalGracePeriods + $partialGracePeriods;
             $initialBalance = $bond['face_value'];
 
             $initialIssuerFlow = $bond['market_value'] - $issuerCosts;
@@ -436,7 +437,7 @@ class MainController extends BaseController
                     } else {
                         $graceType = 'S';
 
-                        $quote = $faceValue * ($tep / (1 - pow(1 + $tep, $totalPeriods * -1)));
+                        $quote = $faceValue * ($tep / (1 - pow(1 + $tep, ($totalPeriods - $sumGracePeriods) * -1)));
 
                         $amortization = $quote - $interest;
 

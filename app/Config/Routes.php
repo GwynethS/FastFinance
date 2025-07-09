@@ -115,8 +115,9 @@ $routes->post('bond-delete', 'MainController::bond_delete');
 $routes->get('cash-flow-list', 'MainController::show_cash_flow_list');
 
 //SUPPORT
+$routes->get('user-manual', 'SupportController::show_user_manual');
 $routes->get('faq', 'SupportController::show_faq');
-$routes->post('support-request', 'SupportController::support_request');
+$routes->match(['GET', 'POST'],'support-request', 'SupportController::support_request');
 
 
 //Component section routing

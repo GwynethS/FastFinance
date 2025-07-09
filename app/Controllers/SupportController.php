@@ -20,6 +20,26 @@ class SupportController extends BaseController
         //index method
     }
 
+    public function show_user_manual()
+    {
+        $session = \Config\Services::session();
+
+        $username = $session->get('username');
+
+        if (!isset($username)) {
+            return redirect()->to('/public/auth-login');
+        }
+
+        $role = $session->get('role')['alias'];
+
+        $data = [
+            'title_meta' => view('partials/title-meta', ['title' => '¿Cómo usar el sistema?']),
+            'page_title' => view('partials/page-title', ['title' => '¿Cómo usar el sistema?', 'pagetitle' => '¿Cómo usar el sistema?']),
+        ];
+
+        return view('support/user-manual', $data);
+    }
+
     public function show_faq()
     {
         $session = \Config\Services::session();
@@ -51,35 +71,44 @@ class SupportController extends BaseController
             return redirect()->to('/public/auth-login');
         }
 
-        $config['protocol'] = 'smtp';
-        $config['SMTPHost'] = 'smtp.gmail.com';
-        $config['SMTPUser'] = env('email.smtpUser');
-        $config['SMTPPass'] = env('email.smtpPass');
-        $config['SMTPPort'] = 587;
-        $config['SMTPTimeout'] = 7;
-        $config['mailType'] = 'html';
-        $config['charset'] = 'utf-8';
+        $data = [
+            'title_meta' => view('partials/title-meta', ['title' => 'Formulario de soporte']),
+            'page_title' => view('partials/page-title', ['title' => 'Formulario de soporte', 'pagetitle' => 'Formulario de soporte']),
+        ];
 
-        $email->initialize($config);
+        if($this->request->getMethod() == 'POST') {
+            $config['protocol'] = 'smtp';
+            $config['SMTPHost'] = 'smtp.gmail.com';
+            $config['SMTPUser'] = env('email.smtpUser');
+            $config['SMTPPass'] = env('email.smtpPass');
+            $config['SMTPPort'] = 587;
+            $config['SMTPTimeout'] = 7;
+            $config['mailType'] = 'html';
+            $config['charset'] = 'utf-8';
 
-        $emailService = \Config\Services::email();
+            $email->initialize($config);
 
-        $subject = $this->request->getPost('subject');
-        $message = $this->request->getPost('message');
+            $emailService = \Config\Services::email();
 
-        $emailService->setTo(env('email.smtpTo'));
-        $emailService->setFrom($session->get('email'), $session->get('username'));
-        $emailService->setSubject($subject);;
-        $emailService->setMessage($message);
+            $subject = $this->request->getPost('subject');
+            $message = $this->request->getPost('message');
 
-        $email->send();
+            $emailService->setTo(env('email.smtpTo'));
+            $emailService->setFrom($session->get('email'), $session->get('username'));
+            $emailService->setSubject($subject);;
+            $emailService->setMessage($message);
 
-        /*if ($email->send()) {
-            echo "Correo enviado correctamente a: ";
-        } else {
-            echo "Error al enviar el correo: " . $email->printDebugger(['headers']);
-        }*/
+            $email->send();
 
-        return redirect()->to('/public/faq');
+            /*if ($email->send()) {
+                echo "Correo enviado correctamente a: ";
+            } else {
+                echo "Error al enviar el correo: " . $email->printDebugger(['headers']);
+            }*/
+
+            return redirect()->to('/public/faq');
+        }
+
+        return view('support/support-request', $data);
     }
 }
