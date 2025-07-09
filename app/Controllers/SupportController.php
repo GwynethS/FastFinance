@@ -106,7 +106,7 @@ class SupportController extends BaseController
                 echo "Error al enviar el correo: " . $email->printDebugger(['headers']);
             }*/
 
-            return redirect()->to('/public/faq');
+            return redirect()->to('/public/support-request');
         }
 
         return view('support/support-request', $data);

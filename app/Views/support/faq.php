@@ -36,7 +36,7 @@ $role = $session->get('role')['alias'];
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-8">
                         <div class="card">
                             <div class="card-body">
                                 <div class="accordion" id="accordionExample">
@@ -234,6 +234,9 @@ $role = $session->get('role')['alias'];
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                        <img src="/public/assets/images/faq-img.png" alt="faq" style="width: 100%; height: auto;">
                     </div>
                 </div>
 

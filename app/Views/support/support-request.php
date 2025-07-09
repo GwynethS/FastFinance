@@ -67,6 +67,9 @@ $role = $session->get('role')['alias'];
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                        <img src="/public/assets/images/support-img.png" alt="faq" style="width: 70%; height: auto;">
+                    </div>
                 </div>
 
             </div>
